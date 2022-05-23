@@ -1,0 +1,20 @@
+{
+  "images": [
+    {
+      "type": "together",
+      "repository": "reg.gitlab.com/group1/subgroup1/project1",
+      "keepNumber": 20,
+      "keepTags": [],
+      "removeTags": ["*"],
+      "olderThan": "5 d"
+    },
+    {
+      "type": "separately",
+      "repository": "reg.gitlab.com/group2/subgroup2/*",
+      "keepNumber": 0,
+      "keepTags": ["master*", "dev*"],
+      "removeTags": ["*"],
+      "olderThan": "5 w"
+    }
+  ]
+}

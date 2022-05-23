@@ -1,0 +1,10 @@
+main
+*.exe
+*.log
+.idea
+.vscode
+.DS_Store
+*/.vscode
+*/.DS_Store
+makefile
+.metals
